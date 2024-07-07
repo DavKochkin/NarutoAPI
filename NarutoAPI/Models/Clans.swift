@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Clans: Codable {
+    let id: Int
+    var name: String
+    var images: [String]?
+    var characters: [Characters]
+}

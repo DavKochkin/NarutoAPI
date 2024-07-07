@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+
+struct Villages: Codable {
+    let id: Int
+    var name: String
+    var characters: [Characters]
+}
