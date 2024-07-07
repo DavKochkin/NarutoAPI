@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042DC95E2C3AE81500B9CF1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC95D2C3AE81500B9CF1A /* AppDelegate.swift */; };
+		042DC9602C3AE81500B9CF1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC95F2C3AE81500B9CF1A /* SceneDelegate.swift */; };
+		042DC9622C3AE81500B9CF1A /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9612C3AE81500B9CF1A /* TabViewController.swift */; };
+		042DC9672C3AE81600B9CF1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042DC9662C3AE81600B9CF1A /* Assets.xcassets */; };
+		042DC96A2C3AE81600B9CF1A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 042DC9692C3AE81600B9CF1A /* Base */; };
+		042DC97A2C3AE96F00B9CF1A /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9792C3AE96F00B9CF1A /* Characters.swift */; };
+		042DC97C2C3AE97D00B9CF1A /* Clans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC97B2C3AE97D00B9CF1A /* Clans.swift */; };
+		042DC97E2C3AE98900B9CF1A /* Villages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC97D2C3AE98900B9CF1A /* Villages.swift */; };
+		042DC9812C3AEA1E00B9CF1A /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9802C3AEA1E00B9CF1A /* CharactersViewController.swift */; };
+		042DC9832C3AEA2500B9CF1A /* ClanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9822C3AEA2500B9CF1A /* ClanViewController.swift */; };
+		042DC9852C3AEA2F00B9CF1A /* VillagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9842C3AEA2F00B9CF1A /* VillagesViewController.swift */; };
+		042DC9872C3AEA3600B9CF1A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9862C3AEA3600B9CF1A /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042DC95A2C3AE81500B9CF1A /* NarutoAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NarutoAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042DC95D2C3AE81500B9CF1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042DC95F2C3AE81500B9CF1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		042DC9612C3AE81500B9CF1A /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		042DC9662C3AE81600B9CF1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042DC9692C3AE81600B9CF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042DC96B2C3AE81600B9CF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042DC9792C3AE96F00B9CF1A /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		042DC97B2C3AE97D00B9CF1A /* Clans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clans.swift; sourceTree = "<group>"; };
+		042DC97D2C3AE98900B9CF1A /* Villages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villages.swift; sourceTree = "<group>"; };
+		042DC9802C3AEA1E00B9CF1A /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		042DC9822C3AEA2500B9CF1A /* ClanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanViewController.swift; sourceTree = "<group>"; };
+		042DC9842C3AEA2F00B9CF1A /* VillagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagesViewController.swift; sourceTree = "<group>"; };
+		042DC9862C3AEA3600B9CF1A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042DC9572C3AE81500B9CF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042DC9512C3AE81500B9CF1A = {
+			isa = PBXGroup;
+			children = (
+				042DC95C2C3AE81500B9CF1A /* NarutoAPI */,
+				042DC95B2C3AE81500B9CF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042DC95B2C3AE81500B9CF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042DC95A2C3AE81500B9CF1A /* NarutoAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042DC95C2C3AE81500B9CF1A /* NarutoAPI */ = {
+			isa = PBXGroup;
+			children = (
+				042DC9782C3AE91800B9CF1A /* Resources  */,
+				042DC9762C3AE90400B9CF1A /* Managers */,
+				042DC9752C3AE8FF00B9CF1A /* APIClient */,
+				042DC9742C3AE8F900B9CF1A /* ViewModels */,
+				042DC9732C3AE8F400B9CF1A /* Views */,
+				042DC9722C3AE8F000B9CF1A /* Models */,
+				042DC9712C3AE8E300B9CF1A /* Controllers */,
+				042DC9662C3AE81600B9CF1A /* Assets.xcassets */,
+				042DC9682C3AE81600B9CF1A /* LaunchScreen.storyboard */,
+				042DC96B2C3AE81600B9CF1A /* Info.plist */,
+			);
+			path = NarutoAPI;
+			sourceTree = "<group>";
+		};
+		042DC9712C3AE8E300B9CF1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				042DC97F2C3AEA0100B9CF1A /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		042DC9722C3AE8F000B9CF1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				042DC9792C3AE96F00B9CF1A /* Characters.swift */,
+				042DC97B2C3AE97D00B9CF1A /* Clans.swift */,
+				042DC97D2C3AE98900B9CF1A /* Villages.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		042DC9732C3AE8F400B9CF1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		042DC9742C3AE8F900B9CF1A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		042DC9752C3AE8FF00B9CF1A /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		042DC9762C3AE90400B9CF1A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		042DC9782C3AE91800B9CF1A /* Resources  */ = {
+			isa = PBXGroup;
+			children = (
+				042DC95D2C3AE81500B9CF1A /* AppDelegate.swift */,
+				042DC95F2C3AE81500B9CF1A /* SceneDelegate.swift */,
+			);
+			path = "Resources ";
+			sourceTree = "<group>";
+		};
+		042DC97F2C3AEA0100B9CF1A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				042DC9612C3AE81500B9CF1A /* TabViewController.swift */,
+				042DC9802C3AEA1E00B9CF1A /* CharactersViewController.swift */,
+				042DC9822C3AEA2500B9CF1A /* ClanViewController.swift */,
+				042DC9842C3AEA2F00B9CF1A /* VillagesViewController.swift */,
+				042DC9862C3AEA3600B9CF1A /* SettingsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042DC9592C3AE81500B9CF1A /* NarutoAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042DC96E2C3AE81600B9CF1A /* Build configuration list for PBXNativeTarget "NarutoAPI" */;
+			buildPhases = (
+				042DC9562C3AE81500B9CF1A /* Sources */,
+				042DC9572C3AE81500B9CF1A /* Frameworks */,
+				042DC9582C3AE81500B9CF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NarutoAPI;
+			productName = NarutoAPI;
+			productReference = 042DC95A2C3AE81500B9CF1A /* NarutoAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042DC9522C3AE81500B9CF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					042DC9592C3AE81500B9CF1A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 042DC9552C3AE81500B9CF1A /* Build configuration list for PBXProject "NarutoAPI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042DC9512C3AE81500B9CF1A;
+			productRefGroup = 042DC95B2C3AE81500B9CF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042DC9592C3AE81500B9CF1A /* NarutoAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042DC9582C3AE81500B9CF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DC9672C3AE81600B9CF1A /* Assets.xcassets in Resources */,
+				042DC96A2C3AE81600B9CF1A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042DC9562C3AE81500B9CF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042DC9832C3AEA2500B9CF1A /* ClanViewController.swift in Sources */,
+				042DC9812C3AEA1E00B9CF1A /* CharactersViewController.swift in Sources */,
+				042DC9622C3AE81500B9CF1A /* TabViewController.swift in Sources */,
+				042DC9872C3AEA3600B9CF1A /* SettingsViewController.swift in Sources */,
+				042DC95E2C3AE81500B9CF1A /* AppDelegate.swift in Sources */,
+				042DC97E2C3AE98900B9CF1A /* Villages.swift in Sources */,
+				042DC9852C3AEA2F00B9CF1A /* VillagesViewController.swift in Sources */,
+				042DC9602C3AE81500B9CF1A /* SceneDelegate.swift in Sources */,
+				042DC97A2C3AE96F00B9CF1A /* Characters.swift in Sources */,
+				042DC97C2C3AE97D00B9CF1A /* Clans.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042DC9682C3AE81600B9CF1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042DC9692C3AE81600B9CF1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042DC96C2C3AE81600B9CF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042DC96D2C3AE81600B9CF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042DC96F2C3AE81600B9CF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J86PAFJNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NarutoAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DKJ.NarutoAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042DC9702C3AE81600B9CF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9J86PAFJNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NarutoAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DKJ.NarutoAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042DC9552C3AE81500B9CF1A /* Build configuration list for PBXProject "NarutoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042DC96C2C3AE81600B9CF1A /* Debug */,
+				042DC96D2C3AE81600B9CF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042DC96E2C3AE81600B9CF1A /* Build configuration list for PBXNativeTarget "NarutoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042DC96F2C3AE81600B9CF1A /* Debug */,
+				042DC9702C3AE81600B9CF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042DC9522C3AE81500B9CF1A /* Project object */;
+}
