@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to show and search for villages 
 class VillagesViewController: UIViewController {
 
     override func viewDidLoad() {

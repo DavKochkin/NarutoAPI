@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to show and search for clans
 class ClanViewController: UIViewController {
 
     override func viewDidLoad() {

@@ -19,6 +19,9 @@
 		042DC9832C3AEA2500B9CF1A /* ClanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9822C3AEA2500B9CF1A /* ClanViewController.swift */; };
 		042DC9852C3AEA2F00B9CF1A /* VillagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9842C3AEA2F00B9CF1A /* VillagesViewController.swift */; };
 		042DC9872C3AEA3600B9CF1A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9862C3AEA3600B9CF1A /* SettingsViewController.swift */; };
+		042DC9892C3AEDDB00B9CF1A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9882C3AEDDB00B9CF1A /* Service.swift */; };
+		042DC98B2C3AEDE600B9CF1A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC98A2C3AEDE600B9CF1A /* Request.swift */; };
+		042DC98D2C3AEEAD00B9CF1A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC98C2C3AEEAD00B9CF1A /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		042DC9822C3AEA2500B9CF1A /* ClanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanViewController.swift; sourceTree = "<group>"; };
 		042DC9842C3AEA2F00B9CF1A /* VillagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagesViewController.swift; sourceTree = "<group>"; };
 		042DC9862C3AEA3600B9CF1A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		042DC9882C3AEDDB00B9CF1A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		042DC98A2C3AEDE600B9CF1A /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		042DC98C2C3AEEAD00B9CF1A /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 		042DC9752C3AE8FF00B9CF1A /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				042DC9882C3AEDDB00B9CF1A /* Service.swift */,
+				042DC98A2C3AEDE600B9CF1A /* Request.swift */,
+				042DC98C2C3AEEAD00B9CF1A /* Endpoint.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -220,13 +229,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				042DC9832C3AEA2500B9CF1A /* ClanViewController.swift in Sources */,
+				042DC98B2C3AEDE600B9CF1A /* Request.swift in Sources */,
 				042DC9812C3AEA1E00B9CF1A /* CharactersViewController.swift in Sources */,
+				042DC98D2C3AEEAD00B9CF1A /* Endpoint.swift in Sources */,
 				042DC9622C3AE81500B9CF1A /* TabViewController.swift in Sources */,
 				042DC9872C3AEA3600B9CF1A /* SettingsViewController.swift in Sources */,
 				042DC95E2C3AE81500B9CF1A /* AppDelegate.swift in Sources */,
 				042DC97E2C3AE98900B9CF1A /* Villages.swift in Sources */,
 				042DC9852C3AEA2F00B9CF1A /* VillagesViewController.swift in Sources */,
 				042DC9602C3AE81500B9CF1A /* SceneDelegate.swift in Sources */,
+				042DC9892C3AEDDB00B9CF1A /* Service.swift in Sources */,
 				042DC97A2C3AE96F00B9CF1A /* Characters.swift in Sources */,
 				042DC97C2C3AE97D00B9CF1A /* Clans.swift in Sources */,
 			);
