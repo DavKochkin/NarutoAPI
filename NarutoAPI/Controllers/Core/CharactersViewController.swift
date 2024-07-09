@@ -14,6 +14,13 @@ class CharactersViewController: UIViewController {
       super.viewDidLoad()
         view.backgroundColor = .systemBackground
         title = "Characters"
+        
+        let request = Request(
+            endpoint: .character,
+            queryParameters: [
+                URLQueryItem(name: "name", value: "Naruto Uzumaki")]
+        )
+        print(request.url)
     }
     
 }

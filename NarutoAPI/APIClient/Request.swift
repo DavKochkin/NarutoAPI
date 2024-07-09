@@ -9,7 +9,6 @@ import Foundation
 
 /// Object that represents a single API Call 
 final class Request {
-    
     private struct Constants {
         static let baseUrl = "https://narutodb.xyz/api"
     }
@@ -33,7 +32,7 @@ final class Request {
         }
         
         if !queryParameters.isEmpty {
-            string += "?"
+            string += "/search?"
             let argumentString = queryParameters.compactMap({
                 guard let value = $0.value else { return nil }
                 return "\($0.name)=\(value)"
@@ -50,7 +49,7 @@ final class Request {
     
     //MARK: - Public
     
-    public init(endpoint: Endpoint, pathComponents: [String], queryParameters: [URLQueryItem]) {
+    public init(endpoint: Endpoint, pathComponents: [String] = [], queryParameters: [URLQueryItem] = []) {
         self.endpoint = endpoint
         self.pathComponents = pathComponents
         self.queryParameters = queryParameters
