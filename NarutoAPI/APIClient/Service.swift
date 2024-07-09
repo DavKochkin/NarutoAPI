@@ -22,9 +22,12 @@ final class Service {
     /// Send Naruto API Call
     /// - Parameters:
     ///   - request: Request instance
-    ///   - completion: Callback with data or error 
-    public func execute(_ request: Request,
-                        completion: @escaping (Result<String, Error>) -> Void) {
-        
-    }
+    ///   - type : The type of object we expect to get back 
+    ///   - completion: Callback with data or error
+    public func execute<T:Codable>(
+        _ request: Request,
+        expecting type: T.Type,
+        completion: @escaping (Result<T, Error>) -> Void) {
+            
+        }
 }

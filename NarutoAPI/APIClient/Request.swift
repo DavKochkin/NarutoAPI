@@ -9,12 +9,16 @@ import Foundation
 
 /// Object that represents a single API Call 
 final class Request {
+    
+    ///  API Constants
     private struct Constants {
         static let baseUrl = "https://narutodb.xyz/api"
     }
     
+    /// Desired enpoint
     private let endpoint: Endpoint
     
+    /// Query arguments for API, if any 
     private let pathComponents: [String]
     
     private let queryParameters: [URLQueryItem]
@@ -46,6 +50,8 @@ final class Request {
     public var url: URL? {
         return URL(string: urlString)
     }
+    
+    public let httpMethod = "GET"
     
     //MARK: - Public
     

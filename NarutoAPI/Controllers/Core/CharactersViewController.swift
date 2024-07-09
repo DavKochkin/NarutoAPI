@@ -21,6 +21,11 @@ class CharactersViewController: UIViewController {
                 URLQueryItem(name: "name", value: "Naruto Uzumaki")]
         )
         print(request.url)
+        
+        Service.shared.execute(request,
+                               expecting: Characters.self) { result  in
+            
+        }
     }
     
 }
