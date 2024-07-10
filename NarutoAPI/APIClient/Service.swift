@@ -30,4 +30,16 @@ final class Service {
         completion: @escaping (Result<T, Error>) -> Void) {
             
         }
+    
+    
+    //MARK: - Private
+    
+    private func request(from request: Request) -> URLRequest? {
+        guard let url = request.url else {
+            return nil
+        }
+        var request = URLRequest(url: url)
+        request.httpMethod = request.httpMethod
+        return request
+    }
 }
