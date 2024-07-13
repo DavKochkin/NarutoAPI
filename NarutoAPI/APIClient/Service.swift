@@ -17,7 +17,10 @@ final class Service {
     /// Privatized constructor
     private init() {}
     
-    
+    enum ServiceError: Error {
+        case failedToCreateRequest
+        case failedToGetData
+    }
     
     /// Send Naruto API Call
     /// - Parameters:
@@ -29,6 +32,25 @@ final class Service {
         expecting type: T.Type,
         completion: @escaping (Result<T, Error>) -> Void) {
             
+            guard let urlRequest = self.request(from: request) else {
+                completion(.failure(ServiceError.failedToCreateRequest))
+                return
+            }
+            
+            let task = URLSession.shared.dataTask(with: urlRequest) { data, _, error in
+                guard let data = data, error == nil else {
+                    completion(.failure(error ?? ServiceError.failedToGetData))
+                    return
+                }
+                
+                // Decode response
+                do {
+                    
+                }
+                catch {
+                    
+                }
+            }
         }
     
     
