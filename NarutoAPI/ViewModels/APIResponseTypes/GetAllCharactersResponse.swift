@@ -4,12 +4,11 @@
 //
 //  Created by David Kochkin on 20.07.2024.
 //
-
-import Foundation
+import UIKit
 
 struct GetAllCharactersResponse: Codable {
-    struct Info {
-        
-    }
-    let info: Info
+    let characters: [Characters]
+        let currentPage: String
+        let pageSize: String
+        let totalCharacters: Int
 }

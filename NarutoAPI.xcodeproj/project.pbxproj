@@ -23,6 +23,8 @@
 		042DC98B2C3AEDE600B9CF1A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC98A2C3AEDE600B9CF1A /* Request.swift */; };
 		042DC98D2C3AEEAD00B9CF1A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC98C2C3AEEAD00B9CF1A /* Endpoint.swift */; };
 		04EDCA5E2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDCA5D2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift */; };
+		04EDCA602C4BDF8700A66EAA /* CharacterListViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDCA5F2C4BDF8700A66EAA /* CharacterListViewVM.swift */; };
+		04EDCA622C4BE00400A66EAA /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDCA612C4BE00400A66EAA /* CharacterListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		042DC98A2C3AEDE600B9CF1A /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		042DC98C2C3AEEAD00B9CF1A /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		04EDCA5D2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharactersResponse.swift; sourceTree = "<group>"; };
+		04EDCA5F2C4BDF8700A66EAA /* CharacterListViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewVM.swift; sourceTree = "<group>"; };
+		04EDCA612C4BE00400A66EAA /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		042DC9732C3AE8F400B9CF1A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04EDCA612C4BE00400A66EAA /* CharacterListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			children = (
 				04EDCA5C2C4BDD5E00A66EAA /* APIResponseTypes */,
 				04EDCA5B2C4BDD4B00A66EAA /* DataTypes */,
+				04EDCA5F2C4BDF8700A66EAA /* CharacterListViewVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -253,9 +259,11 @@
 				042DC98D2C3AEEAD00B9CF1A /* Endpoint.swift in Sources */,
 				042DC9622C3AE81500B9CF1A /* TabViewController.swift in Sources */,
 				042DC9872C3AEA3600B9CF1A /* SettingsViewController.swift in Sources */,
+				04EDCA622C4BE00400A66EAA /* CharacterListView.swift in Sources */,
 				042DC95E2C3AE81500B9CF1A /* AppDelegate.swift in Sources */,
 				042DC97E2C3AE98900B9CF1A /* Villages.swift in Sources */,
 				042DC9852C3AEA2F00B9CF1A /* VillagesViewController.swift in Sources */,
+				04EDCA602C4BDF8700A66EAA /* CharacterListViewVM.swift in Sources */,
 				04EDCA5E2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift in Sources */,
 				042DC9602C3AE81500B9CF1A /* SceneDelegate.swift in Sources */,
 				042DC9892C3AEDDB00B9CF1A /* Service.swift in Sources */,
