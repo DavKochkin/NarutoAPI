@@ -9,22 +9,20 @@ import UIKit
 
 /// Controller to show and search for characters
 class CharactersViewController: UIViewController {
-
+    
     override func viewDidLoad() {
-      super.viewDidLoad()
+        super.viewDidLoad()
         view.backgroundColor = .systemBackground
         title = "Characters"
         
-        let request = Request(
-            endpoint: .character,
-            queryParameters: [
-                URLQueryItem(name: "name", value: "Naruto Uzumaki")]
-        )
-        print(request.url)
-        
-        Service.shared.execute(request,
-                               expecting: Characters.self) { result  in
-            
+        Service.shared.execute(.listCharactersRequests,
+                               expecting: String.self) { result in
+            switch result {
+            case .success(let model):
+                print(String(describing: model))
+            case .failure(let error):
+                print(String(describing: error))
+            }
         }
     }
     

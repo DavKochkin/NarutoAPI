@@ -61,3 +61,8 @@ final class Request {
         self.queryParameters = queryParameters
     }
 }
+
+
+extension Request {
+    static let listCharactersRequests = Request(endpoint: .character)
+}

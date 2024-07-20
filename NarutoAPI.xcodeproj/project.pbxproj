@@ -22,6 +22,7 @@
 		042DC9892C3AEDDB00B9CF1A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC9882C3AEDDB00B9CF1A /* Service.swift */; };
 		042DC98B2C3AEDE600B9CF1A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC98A2C3AEDE600B9CF1A /* Request.swift */; };
 		042DC98D2C3AEEAD00B9CF1A /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DC98C2C3AEEAD00B9CF1A /* Endpoint.swift */; };
+		04EDCA5E2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDCA5D2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		042DC9882C3AEDDB00B9CF1A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		042DC98A2C3AEDE600B9CF1A /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		042DC98C2C3AEEAD00B9CF1A /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		04EDCA5D2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharactersResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,8 @@
 		042DC9742C3AE8F900B9CF1A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				04EDCA5C2C4BDD5E00A66EAA /* APIResponseTypes */,
+				04EDCA5B2C4BDD4B00A66EAA /* DataTypes */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -156,6 +160,21 @@
 				042DC9862C3AEA3600B9CF1A /* SettingsViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		04EDCA5B2C4BDD4B00A66EAA /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		04EDCA5C2C4BDD5E00A66EAA /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				04EDCA5D2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift */,
+			);
+			path = APIResponseTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +256,7 @@
 				042DC95E2C3AE81500B9CF1A /* AppDelegate.swift in Sources */,
 				042DC97E2C3AE98900B9CF1A /* Villages.swift in Sources */,
 				042DC9852C3AEA2F00B9CF1A /* VillagesViewController.swift in Sources */,
+				04EDCA5E2C4BDD7D00A66EAA /* GetAllCharactersResponse.swift in Sources */,
 				042DC9602C3AE81500B9CF1A /* SceneDelegate.swift in Sources */,
 				042DC9892C3AEDDB00B9CF1A /* Service.swift in Sources */,
 				042DC97A2C3AE96F00B9CF1A /* Characters.swift in Sources */,

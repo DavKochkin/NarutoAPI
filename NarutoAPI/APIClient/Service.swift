@@ -45,12 +45,14 @@ final class Service {
                 
                 // Decode response
                 do {
-                    
+                    let result = try JSONDecoder().decode(type.self, from: data)
+                    completion(.success(result))
                 }
                 catch {
-                    
+                    completion(.failure(error))
                 }
             }
+            task.resume()
         }
     
     
